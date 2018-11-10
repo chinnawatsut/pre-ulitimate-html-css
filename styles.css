@@ -1,5 +1,26 @@
-body {
+.button {
   background-color: red;
+}
+
+:root {
+  --bg-header: #333;
+}
+
+.header {
+  background-color: var(--bg-header);
+}
+
+body {
+  color: blue;
+  font-size: 24px;
+}
+
+.a {
+  color: red;
+  font-size: 30px;
+}
+.a .b {
+  color: blue;
 }
 
 /*# sourceMappingURL=styles.css.map */

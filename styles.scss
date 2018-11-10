@@ -1,3 +1,31 @@
+@import "button";
+
+$text-color: blue;
+$font-size-24: 24px;
+:root {
+    --bg-header: #333;
+}
+
+.header {
+    background-color: var(--bg-header);
+  }
+
 body {
-    background-color: red;
+    color: $text-color;
+    font-size: $font-size-24;
+}
+
+// NOTE RECOMMEND
+@mixin font-size($size) {
+    font-size:$size;
+}
+
+// NESTED
+.a {
+    color: red;
+    @include font-size(30px);
+
+    .b {
+        color: blue;
+    }
 }
