@@ -1,32 +1,5 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1541702467897-41915a07d3a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=49e632cdd89d333ecec422c26515662a&auto=format&fit=crop&w=668&q=80");
-    color: aliceblue;
+  background-color: red;
 }
 
-.kygo {
-    border: 2px solid black;
-}
-
-.navbar {
-    background-color: white;
-    width: 90%;
-    height: 100px;
-    padding: 20px;
-    overflow: auto;
-}
-
-.navbar:last-child{
-    clear: both;
-}
-
-.avatar {
-    max-height: 50px;
-    float: left;    
-}
-
-.btn-save {
-    width: 100px;
-    height: 70px;
-    float: right;
-    /* float: right; */
-}
+/*# sourceMappingURL=styles.css.map */
